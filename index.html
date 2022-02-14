@@ -427,11 +427,14 @@
 
                 //popup영역 보임
                 $js('.popup').addClass('active');
+                $.fn.fullpage.setAllowScrolling(false);
                 return false;
             });
             $js('.popup_close').click(function(){
                 //popup영역 숨김
                 $js('.popup').removeClass('active');
+                $.fn.fullpage.setAllowScrolling(true);
+
             });
         });
     </script>
