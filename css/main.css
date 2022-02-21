@@ -346,9 +346,13 @@ section.profile .about3.active {
     left: calc(85% - 1.5em);
 }
   
-.html,
-.jquery {
+.html {
+
     left: calc(80% - 1.5em);
+
+}
+.jquery {
+    left: calc(60% - 1.5em);
 }
 
 .after,
