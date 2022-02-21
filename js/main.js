@@ -33,7 +33,7 @@ $(document).ready(function(){
         il: 90,
         in: 85,
         ht: 80,
-        jq: 80,
+        jq: 60,
         af: 55,
         pr: 55,
       };
