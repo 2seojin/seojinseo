@@ -352,10 +352,12 @@ section.profile .about3.active {
 
 }
 .jquery {
-    left: calc(60% - 1.5em);
+    left: calc(70% - 1.5em);
 }
 
-.after,
+.after {
+    left: calc(70% - 1.5em);
+}
 .premier {
     left: calc(55% - 1.5em);
 }
